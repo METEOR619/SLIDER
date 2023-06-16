@@ -1,4 +1,5 @@
 # SLIDER
+
 Slider is a Software Development Company with a team of brilliant brains for your software solutions.
 
 ## Installation
@@ -15,6 +16,7 @@ Download the package
 5.Navigate through reqruired pages
 
 ## Contributing
+
 We have a team already working on it.
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
