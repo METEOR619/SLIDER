@@ -1,0 +1,79 @@
+.sidebar {
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    font-weight: bold;
+}
+
+.form {
+    background-color: #CDDAD8;
+    margin-left: 220px;
+    padding: 20px;
+}
+
+h1, h3 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 120px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"],
+input[type="tel"] {
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    max-width: 200px;
+}
+
+.accesstype{
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    max-width: 200px;
+}
+
+.department{
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    max-width: 200px;
+}
+
+
+button {
+    margin-top: 10px;
+}
+
+.saveBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancelBtn {
+    background-color: #4CAF50;
+    color: white;
+}

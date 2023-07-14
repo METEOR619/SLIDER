@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="edit.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <a href="#">WELCOME</a>
+        <a class="active" href="#">MY PROFILE</a>
+        <a id="userNav" href="#">USERS</a>
+        <a href="#">ACCESS REQUESTS</a>
+    </div>
+
+    <div id="userForm" class="form">
+        <h1>RESEARCH MANAGEMENT</h1>
+        <h3>ADD USER</h3>
+        <div class="form-group">
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" placeholder="Email Address">
+        </div>
+        <div class="form-group">
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="firstName">FIRST NAME:</label>
+            <input type="text" id="firstName" placeholder="First Name">
+        </div>
+        <div class="form-group">
+            <label for="lastName">LAST NAME:</label>
+            <input type="text" id="lastName" placeholder="Last Name">
+        </div>
+        <div class="form-group">
+            <label for="dob">DATE OF BIRTH:</label>
+            <input type="date" id="dob" placeholder="Date of Birth">
+        </div>
+        <div class="form-group">
+            <label for="accessType">ACCESS TYPE:</label>
+            <select id="accessType" class="accesstype">
+                <option value="administrator">Administrator</option>
+                <option value="researcher">Researcher</option>
+                <option value="departmentHead">Department Head</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="phoneNumber">PHONE NUMBER:</label>
+            <input type="tel" id="phoneNumber" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+            <label for="department">DEPARTMENT:</label>
+            <select id="department" class="department">
+                <option value="foodMicrobiology">Food Microbiology</option>
+                <option value="virology">Virology</option>
+                <option value="technology">Technology</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="address">ADDRESS:</label>
+            <input type="text" id="address" placeholder="Address">
+        </div>
+        <div class="form-group">
+            <label for="postalCode">POSTAL CODE:</label>
+            <input type="text" id="postalCode" placeholder="Postal Code">
+        </div>
+        <button class="editBtn">EDIT</button>
+    </div>
+
+    <script>
+        document.getElementById('userNav').addEventListener('click', function () {
+            document.getElementById('userForm').style.display = 'block';
+        });
+    </script>
+</body>
+
+</html>
